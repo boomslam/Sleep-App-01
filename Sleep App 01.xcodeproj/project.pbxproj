@@ -14,6 +14,7 @@
 		A3E0D6A91C9B13570020CED0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E0D6A71C9B13570020CED0 /* LaunchScreen.storyboard */; };
 		A3E0D6B41C9B13570020CED0 /* Sleep_App_01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E0D6B31C9B13570020CED0 /* Sleep_App_01Tests.swift */; };
 		A3E0D6BF1C9B13570020CED0 /* Sleep_App_01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E0D6BE1C9B13570020CED0 /* Sleep_App_01UITests.swift */; };
+		A3E0D7071C9C807D0020CED0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E0D7061C9C807D0020CED0 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A3E0D6BA1C9B13570020CED0 /* Sleep App 01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sleep App 01UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E0D6BE1C9B13570020CED0 /* Sleep_App_01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleep_App_01UITests.swift; sourceTree = "<group>"; };
 		A3E0D6C01C9B13570020CED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3E0D7061C9C807D0020CED0 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				A3E0D69E1C9B13570020CED0 /* AppDelegate.swift */,
 				A3E0D6A01C9B13570020CED0 /* ViewController.swift */,
 				A3E0D6A21C9B13570020CED0 /* Main.storyboard */,
+				A3E0D7061C9C807D0020CED0 /* SignInViewController.swift */,
 				A3E0D6A51C9B13570020CED0 /* Assets.xcassets */,
 				A3E0D6A71C9B13570020CED0 /* LaunchScreen.storyboard */,
 				A3E0D6AA1C9B13570020CED0 /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				A3E0D6A11C9B13570020CED0 /* ViewController.swift in Sources */,
 				A3E0D69F1C9B13570020CED0 /* AppDelegate.swift in Sources */,
+				A3E0D7071C9C807D0020CED0 /* SignInViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

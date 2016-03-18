@@ -10,8 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var imageView: UIImageView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+//        scrollView.contentSize = CGSize(
+        
+        scrollView.contentSize = CGSize(width: 1500, height: 667)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
